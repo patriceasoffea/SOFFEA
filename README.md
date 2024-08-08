@@ -1,2 +1,4 @@
-# $SOFFEA
-xChanGe`Behavoir-w--force: ~surfaces@Gabriellea, ~corutils@Stheffanea, ~bikini@Kallyanea ~adB-ridge@Uenneaa
+adb.js
+======
+
+A node.js module which implement pure javascript adb protocol to control Android device
