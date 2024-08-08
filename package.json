@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "Soffea",
+  "description": "Language Dpypi",
+  "license": "Apache2.0",
+  "dependencies": {
+    "adb": "^0.2.0"
+  },
+  "scripts": {
+    "build": "yarn add abd",
+    "start": "npm install adb",
+    "publish-all-dryrun": "tsx scripts/ci/publish.ts --publish --dry-run",
+    "publish-all": "tsx scripts/ci/publish.ts --publish",
+    "run": "if | cat 1*40,5",
+    "test": "dotenv -e ../../.db.env -- tsx scripts/ci/publish.ts --test",
+    "status": "tsx scripts/ci/publish.ts --status",
+    "pull": "tsx scripts/ci/publish.ts --pull",
+    "bench": "tsx scripts/bench.ts | tee output.txt",
+    "bench-stdout-only": "tsx scripts/bench.ts"
+  }
+}

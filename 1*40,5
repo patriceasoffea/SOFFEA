@@ -1,0 +1,23 @@
+\\$00ff3311a brAMOUND $BBS_ROOT_MEMBER
+\\[New]🤩:[~./$0xFF:i:6600{ $PATH }]
+######################################
+#var :i: 				== <bind-bondBehavoir />; { $ADB }
+#var  				== $LIST_IP_BRIDGES { bash | adb devives }
+#var 🤩 				== $ADB { $LIST_IP_BRIDGES (lsif) }
+#var $ADB				== $MESH
+#var p>	 				== $START { gotoAndStart; }
+#var p<					== $KILL { gotoAndKill; }
+#var /p/					== $BUFFER { gotoAndStore; }
+#var *					== ./
+#var $ALLED				== *.*
+#var $GLTD				== *.GLTD
+#var $xGIF				== x.???
+#var $$0					== $BUFFER_SPACE
+#var $$*					== $BUFFER_ALOCALED
+#var $$(					== BASH | if
+#var $--					== BASH BEHA.V.OIR { FunctionBEHAVOIR }
+#var .*.				== BETWEEN_HIDE
+#var ._*._				== $ITALIC_MODE
+#var italic				== $ITALIC_MODE
+#var *bold*				== &BOLD
+#var V					== bash | sudo apt-get yarn^4.0.0 i -g add adb
